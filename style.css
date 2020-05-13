@@ -163,9 +163,15 @@ img {
   color:#a3afa1;
   text-decoration: none;
 }
+.card-one a:hover {
+  color: #cecc77;
+}
 .card-two a {
   color:#a3afa1;
   text-decoration: none;
+}
+.card-two a:hover {
+  color: #cecc77;
 }
 .card-three {
   border: 1px solid #394236;
@@ -177,6 +183,9 @@ img {
 .card-three a {
   color:#a3afa1;
   text-decoration: none;
+}
+.card-three a:hover {
+  color: #cecc77;
 }
 .img-thumbnail {
   width: 300px;
