@@ -204,8 +204,8 @@ img {
 fieldset {
   width: 30%;
   height: 200px;
-  margin-left: 525px;
-  float: center;
+  margin-left: 550px;
+  justify-content: center;
 }
 #contact {
   text-align: center;
@@ -215,8 +215,11 @@ fieldset {
   margin-top: 20px;
   width: 100%;
   text-align: center;
-  float: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
+
 fieldset {
   font-size: 16px;
   color: #394236;
