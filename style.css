@@ -204,10 +204,11 @@ img {
 fieldset {
   width: 30%;
   height: 200px;
-  margin-left: 550px;
+  margin-left: 30%;
   justify-content: center;
 }
 #contact {
+  align-items: center;
   text-align: center;
 }
 .contact {
