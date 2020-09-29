@@ -22,12 +22,12 @@ nav ul li {
 }
    
 .nav-link {
-  color: #d4f3ec;
+  color: #a3afa1;
   text-decoration: none;
   font-family: 'acme', sans-serif;
 }
 .nav-link:hover {
-  color: #cecc77;
+  color: #c9c736;
   font-weight: bold;
 }
    
@@ -36,7 +36,7 @@ nav ul li {
   font-size: 20px;
 }
 #brand .nav-link:hover {
-  color: #d4f3ec;
+  color: #cecc77;
 }
    
    
@@ -68,10 +68,10 @@ h1 {
   font-family: 'Karla';
   font-size: 60px;
   text-align: center;
-  color: #d4f3ec;
+  color: #a3afa1;
   text-shadow: 2px 2px 2px black;
   font-weight: 500;
-  margin-top: 1.5em;
+  margin-top: 1em;
 }
    
 h3.header-tag {
@@ -187,14 +187,14 @@ hr {
   text-decoration: none;
 }
 .card-one a:hover {
-  color: #cecc77;
+  color: #c9c736;
 }
 .card-two a {
   color:#a3afa1;
   text-decoration: none;
 }
 .card-two a:hover {
-  color: #cecc77;
+  color: #c9c736;
 }
 .card-three {
   border: 1px solid #394236;
@@ -208,7 +208,7 @@ hr {
   text-decoration: none;
 }
 .card-three a:hover {
-  color: #cecc77;
+  color: #c9c736;
 }
 .img-thumbnail {
   width: 329px;
@@ -268,8 +268,9 @@ fieldset p {
   color: #c9c736;
 }
 .contactMeButton {
-  color: white;
-  background-color: #626b60;
+  color:#a3afa1;
+  /* background-color: #626b60; */
+  background-color: #394236;
   width: 10em;
   height: 2em;
 }
