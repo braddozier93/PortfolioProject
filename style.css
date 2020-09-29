@@ -5,7 +5,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  height: 50px;
+  height: 70px;
   width: 100vw;
   z-index: 1;
 }
@@ -13,6 +13,7 @@ nav {
 nav ul li {
   float: right;
   margin-right: 50px;
+  margin-top: 10px;
   list-style-type: none;
   text-align: center;
 }
@@ -27,7 +28,7 @@ nav ul li {
   font-family: 'acme', sans-serif;
 }
 .nav-link:hover {
-  color: #c9c736;
+  /* color: #c9c736; */
   font-weight: bold;
 }
    
@@ -35,9 +36,9 @@ nav ul li {
   color: #a3afa1;
   font-size: 20px;
 }
-#brand .nav-link:hover {
+/* #brand .nav-link:hover {
   color: #cecc77;
-}
+} */
    
    
    
@@ -141,8 +142,8 @@ hr {
   height: 50px;
   font-size: 18px;
   color:#a3afa1;
-  border-radius: 5px;
-  border-color: black;
+  border-radius: 2px;
+  border: 1px solid black;
   background-color: #394236;
 }
 
@@ -168,17 +169,17 @@ hr {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-evenly;
-  margin-bottom: 30px;
+  margin-bottom: 75px;
 }
 .card-one {
   border: 1px solid #394236;
-  border-radius: 3px;
+  border-radius: 2px;
   background-color: #394236;
   color: #a3afa1;
 }
 .card-two {
   border: 1px solid #394236;
-  border-radius: 3px;
+  border-radius: 2px;
   background-color: #394236;
   color: #a3afa1;
 }
@@ -198,7 +199,7 @@ hr {
 }
 .card-three {
   border: 1px solid #394236;
-  border-radius: 3px;
+  border-radius: 2px;
   background-color: #394236;
   color: #a3afa1;
   text-decoration: none;
@@ -213,7 +214,7 @@ hr {
 .img-thumbnail {
   width: 329px;
   height: 300px;
-  border-radius: 5px 5px 0px 0px;
+  border-radius: 2px 2px 0px 0px;
 }
 /*Contact me section*/
 .contact-tag {
@@ -221,6 +222,7 @@ hr {
     text-align: center;
     text-shadow: 1px 1px 1px black;
     color: #394236;
+    margin-top: 75px;
   }
 fieldset {
   width: 30%;
@@ -234,7 +236,7 @@ fieldset {
   text-align: center;
 }
 .contact {
-  margin-bottom: 50px;
+  margin-bottom: 75px;
   margin-top: 20px;
   width: 100%;
   text-align: center;
@@ -273,6 +275,8 @@ fieldset p {
   background-color: #394236;
   width: 10em;
   height: 2em;
+  border: 1px solid black;
+  border-radius: 2px;
 }
 
 
